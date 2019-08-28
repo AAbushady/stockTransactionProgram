@@ -1,9 +1,6 @@
 # stockTransactionProgram
 A js program that calculates the value of stock.
 
-***THIS PROGRAM WAS PART OF A COLLEGE COURSE***
-
-
 The program should display the following information...
 The amount of money Tara paid for the stock: $40.00
 
