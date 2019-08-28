@@ -1,7 +1,7 @@
 # stockTransactionProgram
 A js program that calculates the value of stock.
 
-THIS PROGRAM WAS PART OF A COLLEGE COURSE
+***THIS PROGRAM WAS PART OF A COLLEGE COURSE***
 
 
 The program should display the following information...
