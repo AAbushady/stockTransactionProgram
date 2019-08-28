@@ -49,4 +49,13 @@
     let comissionRate = .03;
     var sharesSold = 80000;
     var salesPrice = 42.75;
+    
+    // Calculate the numbers
+    let amountPaid = sharesPurchased * purchasePrice;
+    let comissionPaidOnPurchase = amountPaid * comissionRate;
+    let saleAmount = sharesSold * salesPrice;
+    let comissionPaidOnSale = saleAmount * comissionRate;
+    let profit = (saleAmount - purchasePrice) - (comissionPaidOnPurchase + comissionPaidOnSale);
+    
+    // Display Results
 })();
