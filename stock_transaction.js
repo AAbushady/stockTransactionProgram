@@ -55,8 +55,18 @@
     let comissionPaidOnPurchase = amountPaid * comissionRate;
     let saleAmount = sharesSold * salesPrice;
     let comissionPaidOnSale = saleAmount * comissionRate;
-    let profit = (saleAmount - purchasePrice) - (comissionPaidOnPurchase + comissionPaidOnSale);
+    let profit = (saleAmount - amountPaid) - (comissionPaidOnPurchase + comissionPaidOnSale);
     
     // Display Results
-    console.log(`Amount Paid : \$${amountPaid.toFixed(2)}`);
+    console.log(`Amount Paid: \$${amountPaid.toFixed(2)}`);
+    console.log(`Comission Paid on Purchase: \$${comissionPaidOnPurchase.toFixed(2)}`);
+    console.log(`Sale Amount: : \$${saleAmount.toFixed(2)}`);
+    console.log(`Comission Paid on Sale: \$${comissionPaidOnSale.toFixed(2)}`);
+    console.log(`Profit: \$${profit.toFixed(2)}`);
+    
+    if (profit > 0.00) {
+        console.log("Tara Made a Profit!!");
+    } else {
+        console.log("Tara Lost Money...")
+    }
 })();
