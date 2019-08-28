@@ -44,10 +44,10 @@
     'use strict';
 
     // Variables and Constants
-    var sharesPurchased = 80000;
+    var sharesPurchased = 2000;
     var purchasePrice = 40.00;
     let comissionRate = .03;
-    var sharesSold = 80000;
+    var sharesSold = 2000;
     var salesPrice = 42.75;
     
     // Calculate the numbers
@@ -58,4 +58,5 @@
     let profit = (saleAmount - purchasePrice) - (comissionPaidOnPurchase + comissionPaidOnSale);
     
     // Display Results
+    console.log(`Amount Paid : \$${amountPaid.toFixed(2)}`);
 })();
