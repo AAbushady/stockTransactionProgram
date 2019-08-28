@@ -43,5 +43,10 @@
 (function () {
     'use strict';
 
-    
+    // Variables and Constants
+    var sharesPurchased = 80000;
+    var purchasePrice = 40.00;
+    let comissionRate = .03;
+    var sharesSold = 80000;
+    var salesPrice = 42.75;
 })();
