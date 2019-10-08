@@ -27,6 +27,8 @@
 
     if (profit > 0.00) {
         console.log("Tara Made a Profit!!");
+    } else if (profit === 0.00) {
+        console.log("Tara broke even.");
     } else {
         console.log("Tara Lost Money...");
     }
